@@ -21,7 +21,7 @@ export function About() {
                 alt="Foto-Cachorro"
                 fill
                 quality={100}
-                className="object-cover hover:scale-110 duration-300"
+                className="object-cover hover:scale-110 duration-300 hover:cursor-pointer"
                 priority
               />
             </div>
@@ -65,6 +65,7 @@ export function About() {
 
               <li className="flex items-center gap-2">
                 <Check className="text-red-500" />
+                https://wa.me/3499885855?text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es
                 Qualidade é nossa prioridade
               </li>
             </ul>
@@ -73,7 +74,7 @@ export function About() {
               <a
                 target="blank"
                 href={`https://wa.me/3499885855?text=Olá vim pelo site e gostaria de mais informações`}
-                className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:active:opacity-80"
+                className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:bg-red-500 active:opacity-70"
               >
                 <WhatsappLogoIcon className="w-5 h-5 text-white" />
                 Contato via WhatsApp
@@ -81,10 +82,13 @@ export function About() {
 
               <a
                 href="#"
-                className=" flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
+                className="group flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md 
+             hover:bg-gray-800 transition-colors duration-300"
               >
-                <MapPin className="w-5 h-5 text-black" />
-                Endereço da loja
+                <MapPin className="w-5 h-5 text-black group-hover:text-white transition-colors duration-300" />
+                <span className="text-black group-hover:text-white transition-colors duration-300">
+                  Endereço da loja
+                </span>
               </a>
             </div>
           </div>

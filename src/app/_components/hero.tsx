@@ -36,7 +36,7 @@ export function Hero() {
             <a
               target="blank"
               href={`https://wa.me/3499885855?text=Olá vim pelo site e gostaria de mais informações`}
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 hover:active:opacity-80"
+              className="bg-green-500 hover:active:opacity-80 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
               data-aos="fade-up"
               data-aos-delay="300"
             >
